@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RoundedAlertDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="colorSurface">@android:color/darker_gray</item>
+        <item name="shapeAppearanceOverlay">@style/DialogRoundedCorner</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialogCustomTitle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialogCustomPositiveButton</item>
+    </style>
+
+    <style name="DialogRoundedCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">22dp</item>
+    </style>
+
+    <style name="AlertDialogCustomTitle" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAlertDialogText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/dm_sans</item>
+    </style>
+
+    <style name="AlertDialogCustomPositiveButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorAlertDialogText</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/dm_sans</item>
+    </style>
+    
+    <!--    Tab Layout Styles-->
+    <style name="TabLayoutTextStyle">
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/dm_sans</item>
+    </style>
+    <style name="TabLayoutFoodStyle">
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/text_regular_2x</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CollapsingToolBarLayoutTitleText">
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+
+    <!--    // Text Styles-->
+    <style name="TextInterWhiteBold16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="TextInterWhiteSemiBold16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <style name="TextInterWhiteSemiBold14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <style name="PaymentEditTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">@color/white</item>
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+
+    <style name="PaymentTextInputLayoutOutLineStyle">
+        <item name="boxStrokeColor">@color/payment_edittext_outline_selector</item>
+    </style>
+
+    <!--    // Paddings-->
+    <style name="PaddingFilmTypes">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingStart">13dp</item>
+        <item name="android:paddingEnd">13dp</item>
+    </style>
+
+<!--    Bottom Sheet Dialog Style-->
+<!--    <style name="CancellationBottomSheetDialog" parent="Theme.Design.BottomSheetDialog">-->
+<!--        <item name="bottomSheetStyle">@style/ModalBottomDialogBackground</item>-->
+<!--        <item name="background">@color/colorPrimary</item>-->
+<!--    </style>-->
+
+<!--    <style name="ModalBottomDialogBackground" parent="Widget.Design.BottomSheet.Modal">-->
+<!--        <item name="background">@drawable/bottom_sheet_dialog_background</item>-->
+<!--    </style>-->
+
+</resources>
